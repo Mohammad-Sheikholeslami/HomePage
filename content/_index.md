@@ -10,7 +10,7 @@ design:
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections
-sections:
+sections: 
   - block: biography
     content:
       username: admin
@@ -25,7 +25,7 @@ sections:
      biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
-  - block: research interest
+  - block: experience
     content:
       username: admin
     design:
