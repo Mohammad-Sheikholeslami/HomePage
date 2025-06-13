@@ -30,7 +30,7 @@ profiles:
   - icon: at-symbol
     url: 'mailto:sm.sheikholeslami@mail.utoronto.ca'
     label: E-mail Me
-  - icon: assets/media/icons/G-scholar.svg
+  - icon: G-scholar
     url: https://scholar.google.ca/citations?hl=en&user=MKLh1VUAAAAJ
   - icon: brands/github
     url: https://github.com/Mohammad-Sheikholeslami
