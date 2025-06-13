@@ -36,8 +36,8 @@ profiles:
     url: https://github.com/Mohammad-Sheikholeslami
   - icon: brands/linkedin
     url: www.linkedin.com/in/s-mohammad-sheikholeslami-phd
-  <!-- icon: brands/instagram -->
-  <!-- url: https://www.instagram.com/ -->
+  - icon: brands/instagram
+    url: https://www.instagram.com/
 
 education:
   - area: PhD Artificial Intelligence
