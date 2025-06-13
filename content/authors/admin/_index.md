@@ -1,28 +1,28 @@
 ---
 # Display name
-title: Sheikh
+title: Sheikholeslami
 
 # Name pronunciation (optional)
 name_pronunciation: Sheikh
 
 # Full name (for SEO)
 first_name: Seyed Mohammad
-last_name: Sheikh
+last_name: Sheikholeslami
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Data center
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of Toronto
+    url: https://www.utoronto.ca/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
