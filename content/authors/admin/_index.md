@@ -30,8 +30,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:sm.sheikholeslami@mail.utoronto.ca'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: brands/google
+    url: https://scholar.google.ca/citations?hl=en&user=MKLh1VUAAAAJ
   - icon: brands/github
     url: https://github.com/Mohammad-Sheikholeslami
   - icon: brands/linkedin
