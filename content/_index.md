@@ -45,4 +45,14 @@ sections:
     content:
       title: Languages
       username: admin
+  - block: custom
+    content:
+      title: Research Interests
+      body: |
+        - **Federated Learning over Wireless Networks**, especially Cell-Free massive MIMO  
+        - **Multi-modal Foundation Models** and their efficient deployment over IoT systems  
+        - **Hierarchical Edge Intelligence** and communication-efficient training  
+        - **AI for Smart Healthcare**, using privacy-preserving and distributed learning  
+        - **Optimization algorithms** in ML, like PSO and Lyapunov methods
+
 ---
