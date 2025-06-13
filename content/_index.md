@@ -46,4 +46,12 @@ sections:
     content:
       title: Languages
       username: admin
+  - block: custom_research
+    content:
+      title: "Research Interests"
+      body: |
+        - **Federated Learning**: Optimization for decentralized edge-based ML.
+        - **Cell-Free Massive MIMO**: Resource-efficient AI in large-scale networks.
+        - **Multi-Modal Models**: Integration of vision, text, and sensor data in wireless AI.
+
 ---
