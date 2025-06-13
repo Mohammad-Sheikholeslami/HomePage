@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Sheikholeslami
+title: Mohammad Sheikholeslami
 
 # Name pronunciation (optional)
-name_pronunciation: Sheikh
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Seyed Mohammad
@@ -28,16 +28,16 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:sm.sheikholeslami@mail.utoronto.ca'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Mohammad-Sheikholeslami
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: www.linkedin.com/in/s-mohammad-sheikholeslami-phd
+  <!-- - icon: brands/instagram
+    url: https://www.instagram.com/ -->
 
 education:
   - area: PhD Artificial Intelligence
