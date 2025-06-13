@@ -40,19 +40,19 @@ profiles:
    # url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
+  - area: PhD Electrical and Computer Engineering
     institution: University of Toronto
     date_start: 2022-09-01
     date_end: 2025-10-01
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    summary: 
+      Thesis on Multi-Modal Federated Learning over Cell-Free Networks. Supervised by [Prof Konstantinos N. Plataniotis](https://www.ece.utoronto.ca/people/plataniotis-k-n/). Published 5 papers including 3 journals and 2 conference papers.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M.Sc. Communications Engineering
+    institution: University of Tehran
+    date_start: 2017-09-01
+    date_end: 2020-09-01
     summary: |
       GPA: 3.8/4.0
 
@@ -60,8 +60,8 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: BSc Electrical Power Engineering
+    institution: Bu-Ali Sina University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
