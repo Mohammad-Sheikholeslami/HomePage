@@ -1,20 +1,31 @@
-<section class="section">
+<section class="section" id="research">
   <div class="container">
-    <h2 class="section-title">{{ .content.title }}</h2>
+    <div class="section-heading">
+      <h2 class="section-title">{{ .content.title | default "Research Interests" }}</h2>
+    </div>
 
-    <p>Looking for: authors/{{ .content.username }}</p>
+    {{ $username := .content.username | default "admin" }}
+    {{ $author := site.GetPage (printf "authors/%s" $username) }}
 
-    {{ $author := site.GetPage (printf "authors/%s" .content.username) }}
     {{ if $author }}
-      <p>✅ Author found: {{ $author.Title }}</p>
-      {{ range $author.Params.interests }}
-        <div class="py-2">
-          <h3 class="text-xl font-semibold">{{ .title }}</h3>
-          <p>{{ .description }}</p>
+      {{ with $author.Params.interests }}
+        <div class="timeline">
+          {{ range . }}
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <h3 class="timeline-title">{{ .title }}</h3>
+              </div>
+              <div class="timeline-content">
+                <p>{{ .description }}</p>
+              </div>
+            </div>
+          {{ end }}
         </div>
+      {{ else }}
+        <p class="text-gray-500">No research interests found.</p>
       {{ end }}
     {{ else }}
-      <p>❌ Author not found.</p>
+      <p class="text-red-500">❌ Author page not found. Check the 'username' in content/_index.md.</p>
     {{ end }}
   </div>
 </section>
