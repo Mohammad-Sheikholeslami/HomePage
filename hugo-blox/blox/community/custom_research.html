@@ -1,44 +1,35 @@
 <section class="section" id="research">
-  <div class="container">
-    <div class="section-heading">
-      <h2 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-white mb-10">
+  <div class="container max-w-3xl mx-auto">
+    <!-- Heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-5xl font-extrabold tracking-tight text-neutral-900 dark:text-white">
         {{ .content.title | default "Research Interests" }}
       </h2>
+      <div class="h-1 w-24 bg-primary mx-auto mt-4"></div>
     </div>
 
-    {{ $username := .content.username | default "admin" }}
-    {{ $author := site.GetPage (printf "authors/%s" $username) }}
-
-    {{ if $author }}
-      {{ with $author.Params.interests }}
-        <div class="flex flex-col space-y-8">
-          {{ range . }}
-            <div class="flex">
-              <!-- Marker -->
-              <div class="flex flex-col items-center mr-6">
-                <div class="bg-primary text-white rounded-full p-2">
-                  <i class="fa-solid fa-brain"></i> <!-- You can change icon -->
-                </div>
-                <div class="h-full w-px bg-border mt-1"></div>
-              </div>
-
-              <!-- Content -->
-              <div class="flex-1">
-                <h3 class="text-xl font-semibold text-neutral-900 dark:text-white">
-                  {{ .title }}
-                </h3>
-                <p class="text-sm text-neutral-700 dark:text-neutral-300 mt-2 leading-relaxed">
-                  {{ .description }}
-                </p>
-              </div>
+    <!-- Timeline Items -->
+    {{ $author := site.GetPage (printf "authors/%s" (.content.username | default "admin")) }}
+    {{ if and $author ($author.Params.interests) }}
+      <div class="space-y-12">
+        {{ range $author.Params.interests }}
+          <div class="flex items-start">
+            <!-- Centered Marker -->
+            <div class="flex-shrink-0 flex flex-col items-center relative">
+              <div class="w-4 h-4 bg-primary rounded-full"></div>
+              <div class="flex-1 w-px bg-primary/50 mt-2"></div>
             </div>
-          {{ end }}
-        </div>
-      {{ else }}
-        <p class="text-center text-gray-500 mt-8">No research interests found.</p>
-      {{ end }}
+
+            <!-- Text Content -->
+            <div class="ml-6 flex-1">
+              <h3 class="text-2xl font-semibold text-neutral-900 dark:text-white">{{ .title }}</h3>
+              <p class="mt-2 text-neutral-700 dark:text-neutral-300 leading-relaxed">{{ .description }}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
     {{ else }}
-      <p class="text-center text-red-500 mt-8">❌ Author page not found. Check the 'username' in content/_index.md.</p>
+      <p class="text-center text-gray-500">No interests found 😥</p>
     {{ end }}
   </div>
 </section>
