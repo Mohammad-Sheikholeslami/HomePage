@@ -1,8 +1,13 @@
 <section class="section">
   <div class="container">
     <h2 class="section-title">{{ .content.title }}</h2>
-    <div class="markdown-content">
-      {{ .content.body | markdownify }}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {{ range .content.items }}
+        <div class="card">
+          <h3 class="text-lg font-semibold">{{ .title }}</h3>
+          <p class="text-sm text-gray-600">{{ .description }}</p>
+        </div>
+      {{ end }}
     </div>
   </div>
 </section>
