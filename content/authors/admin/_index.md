@@ -65,8 +65,8 @@ education:
     summary: |
       GPA: 3.4/4.0
       
-      #Courses included:
-      #- lorem ipsum dolor sit amet, consectetur adipiscing elit
+      <!-- Courses included:
+      - machine learning -->
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
