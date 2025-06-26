@@ -56,10 +56,8 @@ education:
     summary: |
       GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis on Data Centre Energy Cost Minimization in Smart Grids
+
   - area: BSc Electrical Power Engineering
     institution: Bu-Ali Sina University
     date_start: 2016-01-01
