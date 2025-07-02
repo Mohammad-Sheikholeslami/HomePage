@@ -160,4 +160,19 @@ interests:
     description: "Decentralized AI training using dense access points in 6G networks."
 ---
 
-I am currently a PhD Candidate at University of Toronto.
+
+<p>
+I am a Ph.D. candidate at the University of Toronto, supervised by 
+<a href="https://www.ece.utoronto.ca/people/plataniotis-k-n/" target="_blank">Prof. Konstantinos N. Plataniotis</a>. 
+My research focuses on enabling privacy-preserving and resource-efficient machine learning across layered infrastructures—
+from edge IoT devices to large-scale data centers.
+</p>
+
+<p>
+This includes contributions to <strong>wireless learning systems</strong>, where I design distributed learning algorithms over 
+heterogeneous communication technologies such as VLC, centralized MIMO, and cell-free massive MIMO for both indoor and outdoor 
+IoT environments; <strong>multi-modal intelligence</strong>, where I develop fusion architectures to process diverse data types 
+such as time-series and visual signals, addressing modality heterogeneity and missing data; and 
+<strong>energy-aware infrastructures</strong>, where I explore the interaction between AI workloads and power systems, 
+optimizing the role of data centers within smart grid ecosystems.
+</p>
