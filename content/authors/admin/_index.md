@@ -167,6 +167,6 @@ interests:
 
 
 
-I am a Ph.D. candidate at the University of Toronto. In my work, my goal is to enable reliable, privacy-preserving, and cost-effective advanced machine learning services for end-users—connecting people and systems across the globe. My research focuses on designing such systems across connected infrastructures—from edge IoT devices to large-scale data centers. It spans three core areas: **trustworthy distributed learning**, **smart networks**, and **advanced machine learning models**.
+I am a Ph.D. candidate at the University of Toronto. In my work, my goal is to enable reliable, privacy-preserving, and cost-effective advanced machine learning services for end-users—connecting people and systems across the globe. My research focuses on designing such systems across connected infrastructures—from edge IoT devices to large-scale data centers. It spans three core areas: **trustworthy distributed learning**, **next-generation networks**, and **advanced machine learning models**.
 
 
