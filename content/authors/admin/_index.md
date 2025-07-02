@@ -162,5 +162,6 @@ interests:
 
 
 
-I am a Ph.D. candidate at the University of Toronto. My research explores how to design privacy-preserving and resource-efficient machine learning systems that operate across connected infrastructures—from edge IoT devices to large-scale data centers. It centers on three core areas: **intelligent wireless networks**, **multimodal learning and sensor fusion**, and **sustainable computing systems**.
+I am a Ph.D. candidate at the University of Toronto. In my work, my goal is to enable reliable, privacy-preserving, and cost-effective advanced machine learning services for end-users—connecting people and systems across the globe. My research focuses on designing such systems across connected infrastructures—from edge IoT devices to large-scale data centers. It spans three core areas: **trustworthy distributed learning**, **smart networks**, and **advanced machine learning models**.
+
 
