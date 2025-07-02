@@ -152,15 +152,8 @@ awards:
 
 
 interests:
-  - title: "Federated Learning"
+  - title: "Distributed Learning"
     description: "Training distributed models over wireless networks without sharing raw data."
-    papers:
-      - title: "Communication-Efficient Federated Learning over Hybrid VLC/RF Indoor Networks"
-        venue: "IEEE Access, 2023"
-        link: "https://doi.org/10.1109/ACCESS.2023.XXXXX"  # Replace with actual DOI or arXiv
-      - title: "Hierarchical Federated Learning over Cell-Free Massive MIMO Networks"
-        venue: "Under Review, 2024"
-        link: "https://arxiv.org/abs/XXXX.XXXXX"
   - title: "Multi-modal Foundation Models"
     description: "Large-scale pre-trained models across vision, text, and sensors."
   - title: "Cell-Free Massive MIMO"
