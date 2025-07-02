@@ -8,22 +8,34 @@
       <div class="h-1 w-24 bg-primary mx-auto mt-4"></div>
     </div>
 
-    <!-- Timeline Items -->
+    <!-- Interests -->
     {{ $author := site.GetPage (printf "authors/%s" (.content.username | default "admin")) }}
     {{ if and $author ($author.Params.interests) }}
       <div class="space-y-12">
         {{ range $author.Params.interests }}
           <div class="flex items-start">
-            <!-- Centered Marker -->
-            <div class="flex-shrink-0 flex flex-col items-center relative">
+            <!-- Marker -->
+            <div class="flex-shrink-0 flex flex-col items-center relative pt-1">
               <div class="w-4 h-4 bg-primary rounded-full"></div>
               <div class="flex-1 w-px bg-primary/50 mt-2"></div>
             </div>
 
-            <!-- Text Content -->
+            <!-- Content -->
             <div class="ml-6 flex-1">
               <h3 class="text-2xl font-semibold text-neutral-900 dark:text-white">{{ .title }}</h3>
               <p class="mt-2 text-neutral-700 dark:text-neutral-300 leading-relaxed">{{ .description }}</p>
+
+              {{ with .papers }}
+                <ul class="mt-3 space-y-1 list-disc list-inside text-sm text-primary">
+                  {{ range . }}
+                    <li>
+                      <a href="{{ .url }}" target="_blank" class="hover:underline">
+                        {{ .title }}
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              {{ end }}
             </div>
           </div>
         {{ end }}

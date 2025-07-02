@@ -154,6 +154,11 @@ awards:
 interests:
   - title: "Distributed Learning"
     description: "Training distributed models over wireless networks without sharing raw data."
+    papers:
+      - title: "Paper Title 1"
+        url: "https://link.to/paper1"
+      - title: "Paper Title 2"
+        url: "https://link.to/paper2"
   - title: "Multi-modal Foundation Models"
     description: "Large-scale pre-trained models across vision, text, and sensors."
   - title: "Cell-Free Massive MIMO"
