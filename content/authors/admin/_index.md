@@ -128,7 +128,7 @@ awards:
     url: https://www.ece.utoronto.ca/
     date: '2022-09-01'
     awarder: UofT
-    icon: edx
+    icon: "custom/uoft"
     summary: |
       I studied the founda plications.
   - title: Graduate Research Fellowship at the University of Tehran
