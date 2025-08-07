@@ -152,7 +152,7 @@ awards:
 
 
 interests:
-  - title: "Distributed Learning"
+  - title: "Privacy-Preserving Distributed Machine Learning"
     description: "Training distributed models over wireless networks without sharing raw data."
     papers:
       - title: "Paper Title 1"
