@@ -109,7 +109,7 @@ skills:
       - name: Photography
         description: ''
         percent: 80
-        icon: "custom/uoft"
+        icon: camera
 
 languages:
   - name: English
@@ -128,7 +128,7 @@ awards:
     url: https://www.ece.utoronto.ca/
     date: '2022-09-01'
     awarder: University of Toronto, ON, Canada
-    icon: "custom/uoft"
+    icon: camera
     summary: |
       I studied the found a deep passion.
   - title: Graduate Research Fellowship at the University of Tehran
