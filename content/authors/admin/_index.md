@@ -157,7 +157,7 @@ interests:
   - "Cell-Free Massive MIMO"
 
 interest_descriptions:
-  "Privacy-Preserving Distributed Machine Learning": "Federated Learning allows ML without sharing raw data."
+  "Federated Learning": "Federated Learning allows ML without sharing raw data."
   "Multi-modal Foundation Models": "Large-scale pre-trained models across vision, text, and sensors."
   "Cell-Free Massive MIMO": "Decentralized AI training using dense access points in 6G networks."
 
@@ -170,14 +170,6 @@ papers:
     url: "https://ieeexplore.ieee.org/abstract/document/10627018"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
     tags: ["Multi-modal Foundation Models"]
-  - title: "[Access'22] Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
-    url: "https://ieeexplore.ieee.org/abstract/document/9927433"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
-    tags: ["Privacy-Preserving Distributed Machine Learning"]
-  - title: "[JIOT'22] Graph Federated Learning for CIoT Devices and Home Applications"
-    url: "https://ieeexplore.ieee.org/abstract/document/9983539"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
-    tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[ICHMS'24] MoFLeuR: Motion-based Federated Learning Gesture Recognition"
     url: "https://ieeexplore.ieee.org/abstract/document/10555602"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
@@ -186,16 +178,24 @@ papers:
     url: "https://ieeexplore.ieee.org/abstract/document/10403421"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
     tags: ["Multi-modal Foundation Models"]
+  - title: "[ESPR'23] Intelligent Privacy-Preserving Demand Response for Green Data Centers"
+    url: "https://www.sciencedirect.com/science/article/pii/S0378779623002833"
+    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    tags: ["Cell-Free Massive MIMO"]
+  - title: "[Access'22] Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
+    url: "https://ieeexplore.ieee.org/abstract/document/9927433"
+    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    tags: ["Privacy-Preserving Distributed Machine Learning"]
+  - title: "[JIOT'22] Graph Federated Learning for CIoT Devices and Home Applications"
+    url: "https://ieeexplore.ieee.org/abstract/document/9983539"
+    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[Access'21] Sub-Decimeter VLC 3D Indoor Localization With Handover Probability Analysis"
     url: "https://ieeexplore.ieee.org/abstract/document/9523865"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
     tags: ["Cell-Free Massive MIMO"]
   - title: "[SG'22] Cloud Data Center Demand Response: An Optimized Workload Management Approach"
     url: "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/stg2.12082"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
-    tags: ["Cell-Free Massive MIMO"]
-  - title: "[ESPR'23] Intelligent Privacy-Preserving Demand Response for Green Data Centers"
-    url: "https://www.sciencedirect.com/science/article/pii/S0378779623002833"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
     tags: ["Cell-Free Massive MIMO"]
 
