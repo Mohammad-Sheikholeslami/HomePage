@@ -127,10 +127,10 @@ awards:
   - title: Edward S. Rogers Graduate Fellowship at the University of Toronto
     url: https://www.ece.utoronto.ca/
     date: '2022-09-01'
-    awarder: University of Toronto
+    awarder: University of Toronto, ON, Canada
     icon: "custom/book"
     summary: |
-      I studied the founda plications.
+      I studied the found a deep passion.
   - title: Graduate Research Fellowship at the University of Tehran
     url: https://ut.ac.ir/en
     date: '2017-09-01'
