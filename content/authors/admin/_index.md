@@ -155,19 +155,19 @@ interests:
   - title: "Privacy-Preserving Distributed Machine Learning"
     description: "Federated Learning allows ML without the need to share raw data."
     papers:
-      - title: "Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
+      - title: "[Access'22] Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
         url: "https://ieeexplore.ieee.org/abstract/document/9927433"
-      - title: "Multi-Modal Federated Learning Over Cell-Free Massive MIMO Systems for Activity Recognition"
+      - title: "[Access'25] Multi-Modal Federated Learning Over Cell-Free Massive MIMO Systems for Activity Recognition"
         url: "https://ieeexplore.ieee.org/abstract/document/10909542"
   - title: "Multi-modal Foundation Models"
     description: "Large-scale pre-trained models across vision, text, and sensors."
     papers:
-      - title: "Towards collaborative multimodal federated learning for human activity recognition in smart workplace environments"
+      - title: "[ICASSP'24] Towards collaborative multimodal federated learning for human activity recognition in smart workplace environments"
         utl: "https://ieeexplore.ieee.org/abstract/document/10627018"
   - title: "Cell-Free Massive MIMO"
     description: "Decentralized AI training using dense access points in 6G networks."
     papers:
-      - title: "Sub-Decimeter VLC 3D Indoor Localization With Handover Probability Analysis"
+      - title: "[Access'21] Sub-Decimeter VLC 3D Indoor Localization With Handover Probability Analysis"
       - url: "https://ieeexplore.ieee.org/abstract/document/9523865"
 ---
 
