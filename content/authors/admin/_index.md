@@ -162,22 +162,22 @@ interest_descriptions:
   "Cell-Free Massive MIMO": "Decentralized AI training using dense access points in 6G networks."
 
 papers:
-  - title: "[Access'22] Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
-    url: "https://ieeexplore.ieee.org/abstract/document/9927433"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
-    tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[Access'25] Multi-Modal Federated Learning Over Cell-Free Massive MIMO Systems for Activity Recognition"
     url: "https://ieeexplore.ieee.org/abstract/document/10909542"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
-    tags: ["Privacy-Preserving Distributed Machine Learning"]
-  - title: "[JIOT'22] Graph Federated Learning for CIoT Devices and Home Applications"
-    url: "https://ieeexplore.ieee.org/abstract/document/9983539"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
     tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[ICASSP'24] Towards collaborative multimodal federated learning for human activity recognition in smart workplace environments"
     url: "https://ieeexplore.ieee.org/abstract/document/10627018"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
     tags: ["Multi-modal Foundation Models"]
+  - title: "[Access'22] Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
+    url: "https://ieeexplore.ieee.org/abstract/document/9927433"
+    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    tags: ["Privacy-Preserving Distributed Machine Learning"]
+  - title: "[JIOT'22] Graph Federated Learning for CIoT Devices and Home Applications"
+    url: "https://ieeexplore.ieee.org/abstract/document/9983539"
+    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[ICHMS'24] MoFLeuR: Motion-based Federated Learning Gesture Recognition"
     url: "https://ieeexplore.ieee.org/abstract/document/10555602"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
