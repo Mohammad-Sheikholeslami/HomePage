@@ -163,7 +163,11 @@ interests:
     description: "Large-scale pre-trained models across vision, text, and sensors."
     papers:
       - title: "[ICASSP'24] Towards collaborative multimodal federated learning for human activity recognition in smart workplace environments"
-        utl: "https://ieeexplore.ieee.org/abstract/document/10627018"
+        url: "https://ieeexplore.ieee.org/abstract/document/10627018"
+      - title: "[ICHMS'24] MoFLeuR: Motion-based Federated Learning Gesture Recognition"
+        url: "https://ieeexplore.ieee.org/abstract/document/10555602"
+      - title: "Multi-Model Federated Learning Optimization Based on Multi-Agent Reinforcement Learning"
+        url: "https://ieeexplore.ieee.org/abstract/document/10403421"
   - title: "Cell-Free Massive MIMO"
     description: "Decentralized AI training using dense access points in 6G networks."
     papers:
