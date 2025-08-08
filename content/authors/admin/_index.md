@@ -152,7 +152,7 @@ awards:
 
 
 interests:
-  - "Privacy-Preserving Distributed Machine Learning"
+  - "Federated Machine Learning"
   - "Multi-modal Foundation Models"
   - "Cell-Free Massive MIMO"
 
