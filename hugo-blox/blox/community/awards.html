@@ -1,0 +1,79 @@
+<section class="section" id="awards">
+  <div class="container max-w-3xl mx-auto">
+    <div class="section-heading text-center mb-10">
+      <h2 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-white">
+        {{ .content.title | default "Awards" }}
+      </h2>
+    </div>
+
+    {{ $username := .content.username | default "admin" }}
+    {{ $author := site.GetPage (printf "authors/%s" $username) }}
+
+    {{ if and $author ($author.Params.awards) }}
+      <div class="space-y-8">
+        {{ range $i, $a := $author.Params.awards }}
+
+          <div class="flex items-start gap-4">
+            <!-- Icon area -->
+            <div class="mt-1 w-10 h-10 flex items-center justify-center rounded-full bg-muted/50">
+              {{/* PRIORITY:
+                    1) icon: "custom/name"      (new syntax)
+                    2) icon_pack: custom + icon: name (old syntax)
+                    3) image: "/path/or/url.svg" (raw image fallback)
+                    4) fallback to built-in packs (fa/brands/etc.)        */}}
+
+              {{ $icon := $a.icon }}
+              {{ $pack := $a.icon_pack | default "" }}
+
+              {{/* Use custom pack if specified via either syntax */}}
+              {{ if or (hasPrefix $icon "custom/") (eq $pack "custom") }}
+                {{ $name := (cond (hasPrefix $icon "custom/") $icon (printf "custom/%s" $icon)) }}
+                {{ partial "functions/icon.html" (dict "name" $name "class" "w-6 h-6 text-primary") }}
+
+              {{/* Raw image fallback (works with any SVG/PNG from static or absolute URL) */}}
+              {{ else if $a.image }}
+                <img src="{{ $a.image | safeURL }}" alt="" class="w-6 h-6 object-contain" loading="lazy">
+
+              {{/* Built-in icon packs */}}
+              {{ else if $icon }}
+                {{ partial "functions/icon.html" (dict "name" $icon "class" "w-6 h-6 text-primary") }}
+
+              {{ else }}
+                {{/* ultimate fallback – theme default */}}
+                {{ partial "functions/icon.html" (dict "name" "cube" "class" "w-6 h-6 text-primary") }}
+              {{ end }}
+            </div>
+
+            <!-- Content -->
+            <div class="flex-1">
+              <div class="flex flex-wrap items-baseline gap-2">
+                <h3 class="text-lg font-semibold text-neutral-900 dark:text-white">{{ $a.title }}</h3>
+                {{ with $a.awarder }}
+                  <span class="text-sm text-neutral-600 dark:text-neutral-300">· {{ . }}</span>
+                {{ end }}
+                {{ with $a.date }}
+                  <span class="text-sm text-neutral-500">· {{ . }}</span>
+                {{ end }}
+              </div>
+
+              {{ with $a.url }}
+                <div class="mt-1">
+                  <a href="{{ . }}" target="_blank" class="text-primary hover:underline text-sm">
+                    View
+                  </a>
+                </div>
+              {{ end }}
+
+              {{ with $a.summary }}
+                <div class="prose dark:prose-invert mt-2">{{ . | markdownify }}</div>
+              {{ end }}
+            </div>
+          </div>
+
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="text-center text-gray-500">No awards found.</p>
+    {{ end }}
+  </div>
+</section>
