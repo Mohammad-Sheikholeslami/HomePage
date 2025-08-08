@@ -153,12 +153,12 @@ awards:
 
 interests:
   - title: "Privacy-Preserving Distributed Machine Learning"
-    description: "Training distributed models over wireless networks without sharing raw data."
+    description: "Federated Learning allows ML without the need to share raw data."
     papers:
-      - title: "Paper Title 1"
-        url: "https://link.to/paper1"
-      - title: "Paper Title 2"
-        url: "https://link.to/paper2"
+      - title: "Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
+        url: "https://ieeexplore.ieee.org/abstract/document/9927433"
+      - title: "Multi-Modal Federated Learning Over Cell-Free Massive MIMO Systems for Activity Recognition"
+        url: "https://ieeexplore.ieee.org/abstract/document/10909542"
   - title: "Multi-modal Foundation Models"
     description: "Large-scale pre-trained models across vision, text, and sensors."
   - title: "Cell-Free Massive MIMO"
