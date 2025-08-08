@@ -161,8 +161,14 @@ interests:
         url: "https://ieeexplore.ieee.org/abstract/document/10909542"
   - title: "Multi-modal Foundation Models"
     description: "Large-scale pre-trained models across vision, text, and sensors."
+    papers:
+      - title: "Towards collaborative multimodal federated learning for human activity recognition in smart workplace environments"
+        utl: "https://ieeexplore.ieee.org/abstract/document/10627018"
   - title: "Cell-Free Massive MIMO"
     description: "Decentralized AI training using dense access points in 6G networks."
+    papers:
+      - title: "Sub-Decimeter VLC 3D Indoor Localization With Handover Probability Analysis"
+      - url: "https://ieeexplore.ieee.org/abstract/document/9523865"
 ---
 
 
