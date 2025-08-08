@@ -127,7 +127,7 @@ awards:
   - title: Edward S. Rogers Graduate Fellowship at the University of Toronto
     url: https://www.ece.utoronto.ca/
     date: '2022-09-01'
-    awarder: UofT
+    awarder: University of Toronto
     icon: "custom/uoft.svg"
     summary: |
       I studied the founda plications.
