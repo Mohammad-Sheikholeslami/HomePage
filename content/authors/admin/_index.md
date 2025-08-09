@@ -62,9 +62,6 @@ education:
     date_end: 2017-30-08
     #summary: |
     #  GPA: 3.4/4.0
-      
-    #  <!-- Courses included:
-    #  - machine learning -->
 work:
   - position: Teaching Assistant
     company_name: University of Toronto
