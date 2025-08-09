@@ -35,7 +35,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/Mohammad-Sheikholeslami
   - icon: brands/linkedin
-    url: www.linkedin.com/in/s-mohammad-sheikholeslami-phd
+    url: "www.linkedin.com/in/s-mohammad-sheikholeslami-phd"
   # - icon: brands/instagram
    # url: https://www.instagram.com/
 
