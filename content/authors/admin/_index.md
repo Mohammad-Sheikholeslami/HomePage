@@ -60,7 +60,7 @@ education:
   - area: BSc Electrical Power Engineering
     institution: Bu-Ali Sina University
     date_start: 2013-09-01
-    date_end: 2017-30-08
+    date_end: 2017-08-30
     #summary: |
     #  GPA: 3.4/4.0
 work:
