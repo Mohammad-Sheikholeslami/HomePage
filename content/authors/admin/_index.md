@@ -164,15 +164,15 @@ interest_descriptions:
 papers:
   - title: "[Access'25] Multi-Modal Federated Learning Over Cell-Free Massive MIMO Systems for Activity Recognition"
     url: "https://ieeexplore.ieee.org/abstract/document/10909542"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "SM. Sheikholeslami, Pc. Ng, J. Abouei, and K. N. Plataniotis"
     tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[ICASSP'24] Towards collaborative multimodal federated learning for human activity recognition in smart workplace environments"
     url: "https://ieeexplore.ieee.org/abstract/document/10627018"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "] SM. Sheikholeslami, Pc. Ng, H. Lui, Y. Yu and K. N. Plataniotis"
     tags: ["Multi-modal Foundation Models"]
   - title: "[ICHMS'24] MoFLeuR: Motion-based Federated Learning Gesture Recognition"
     url: "https://ieeexplore.ieee.org/abstract/document/10555602"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "J. Seyed-Mohammadi, SM. Sheikholeslami, J. Abouei, A. Mohammadi, K. N. Plataniotis"
     tags: ["Multi-modal Foundation Models"]
   - title: "[CAMPSAP'23] Multi-Model Federated Learning Optimization Based on Multi-Agent Reinforcement Learning"
     url: "https://ieeexplore.ieee.org/abstract/document/10403421"
