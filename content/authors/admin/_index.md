@@ -71,7 +71,7 @@ work:
     date_start: 2023-09-01
     date_end: '2025-09-01'
     summary: |2-
-      I TAed machine learning and AI related courses during my PhD at U of T. I was the Lead TA for CSC311 in winters 2024 and 2025. 
+      I TAed both undergraduate and graduate courses, mostly related to machine learning and AI. I was the Lead TA for CSC311 in winters 2024 and 2025. 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
