@@ -140,7 +140,7 @@ awards:
 
 
 interests:
-  - "Federated Machine Learning"
+  - "Federated Learning"
   - "Multi-modal Foundation Models"
   - "Cell-Free Massive MIMO"
 
