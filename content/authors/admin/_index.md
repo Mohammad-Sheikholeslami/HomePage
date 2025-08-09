@@ -168,7 +168,7 @@ papers:
     tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[ICASSP'24] Towards collaborative multimodal federated learning for human activity recognition in smart workplace environments"
     url: "https://ieeexplore.ieee.org/abstract/document/10627018"
-    authors: "] SM. Sheikholeslami, Pc. Ng, H. Lui, Y. Yu and K. N. Plataniotis"
+    authors: "SM. Sheikholeslami, Pc. Ng, H. Lui, Y. Yu and K. N. Plataniotis"
     tags: ["Multi-modal Foundation Models"]
   - title: "[ICHMS'24] MoFLeuR: Motion-based Federated Learning Gesture Recognition"
     url: "https://ieeexplore.ieee.org/abstract/document/10555602"
