@@ -176,23 +176,23 @@ papers:
     tags: ["Multi-modal Foundation Models"]
   - title: "[CAMPSAP'23] Multi-Model Federated Learning Optimization Based on Multi-Agent Reinforcement Learning"
     url: "https://ieeexplore.ieee.org/abstract/document/10403421"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "K. Atapour, S. J. Seyed-mohammadi, SM. Sheikholeslami, J. Abouei, A. Mohammadi, K. N. Plataniotis"
     tags: ["Multi-modal Foundation Models"]
   - title: "[ESPR'23] Intelligent Privacy-Preserving Demand Response for Green Data Centers"
     url: "https://www.sciencedirect.com/science/article/pii/S0378779623002833"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "A. Alinezhadi, SM. Sheikholeslami, K. Atapour, J. Abouei, and K. Plataniotis"
     tags: ["Cell-Free Massive MIMO"]
   - title: "[Access'22] Communication-Efficient Federated Learning for Hybrid VLC/RF Indoor Systems"
     url: "https://ieeexplore.ieee.org/abstract/document/9927433"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "SM. Sheikholeslami, A. Rasti, J. Seyed-Mohammadi, J. Abouei, and K. N. Plataniotis "
     tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[JIOT'22] Graph Federated Learning for CIoT Devices and Home Applications"
     url: "https://ieeexplore.ieee.org/abstract/document/9983539"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "A. Rasti-Meymandi, SM. Sheikholeslami, J. Abouei, and K. N. Plataniotis"
     tags: ["Privacy-Preserving Distributed Machine Learning"]
   - title: "[Access'21] Sub-Decimeter VLC 3D Indoor Localization With Handover Probability Analysis"
     url: "https://ieeexplore.ieee.org/abstract/document/9523865"
-    authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    authors: "S.M. Sheikholeslami, F. Fazel, J. Abouei, K.N. Plataniotis"
     tags: ["Cell-Free Massive MIMO"]
   - title: "[SG'22] Cloud Data Center Demand Response: An Optimized Workload Management Approach"
     url: "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/stg2.12082"
