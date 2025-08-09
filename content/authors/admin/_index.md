@@ -133,7 +133,7 @@ awards:
     #  I studied the found a deep passion.
   - title: Graduate Research Fellowship at the University of Toronto
     url: https://www.ece.utoronto.ca/
-    date_start: '2022-09-01'
+    date: '2022-09-01'
     date_end: '2022-10-1'
     awarder: University of Toronto, ON, Canada
   - title: Graduate Research Fellowship at the University of Tehran
