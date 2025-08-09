@@ -60,23 +60,23 @@ education:
 
   - area: BSc Electrical Power Engineering
     institution: Bu-Ali Sina University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+    date_start: 2013-09-01
+    date_end: 2017-30-08
+    #summary: |
+    #  GPA: 3.4/4.0
       
-      <!-- Courses included:
-      - machine learning -->
+    #  <!-- Courses included:
+    #  - machine learning -->
 work:
   - position: Teaching Assistant
     company_name: University of Toronto
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-09-01
+    date_end: '2025-09-01'
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Tutorial
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -134,7 +134,6 @@ awards:
   - title: Graduate Research Fellowship at the University of Toronto
     url: https://www.ece.utoronto.ca/
     date: '2022-09-01'
-    date_end: '2022-10-1'
     awarder: University of Toronto, ON, Canada
   - title: Graduate Research Fellowship at the University of Tehran
     url: https://ut.ac.ir/en
