@@ -143,12 +143,13 @@ interests:
   - "Federated Learning"
   - "Multi-modal Foundation Models"
   - "Cell-Free Massive MIMO"
+  - "Data Centre Networks"
 
 interest_descriptions:
   "Federated Learning": "Federated Learning allows ML without sharing raw data."
   "Multi-modal Foundation Models": "Large-scale pre-trained models across vision, text, and sensors."
   "Cell-Free Massive MIMO": "Decentralized AI training using dense access points in 6G networks."
-
+  "Data Centre Networks": "Energy Cost Minimization in Data Centres"
 papers:
   - title: "[Access'25] Multi-Modal Federated Learning Over Cell-Free Massive MIMO Systems for Activity Recognition"
     url: "https://ieeexplore.ieee.org/abstract/document/10909542"
