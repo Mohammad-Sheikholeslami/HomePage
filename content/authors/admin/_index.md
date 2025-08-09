@@ -54,8 +54,6 @@ education:
     date_start: 2017-09-01
     date_end: 2020-09-01
     summary: |
-      GPA: 3.8/4.0
-
       Thesis on Data Centre Energy Cost Minimization in Smart Grids
 
   - area: BSc Electrical Power Engineering
