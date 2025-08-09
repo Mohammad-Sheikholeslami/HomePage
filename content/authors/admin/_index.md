@@ -55,6 +55,7 @@ education:
     date_end: 2020-09-01
     summary: |
       Thesis on Data Centre Energy Cost Minimization in Smart Grids
+      sad
 
   - area: BSc Electrical Power Engineering
     institution: Bu-Ali Sina University
