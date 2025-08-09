@@ -190,13 +190,13 @@ papers:
     url: "https://ieeexplore.ieee.org/abstract/document/9983539"
     authors: "A. Rasti-Meymandi, SM. Sheikholeslami, J. Abouei, and K. N. Plataniotis"
     tags: ["Privacy-Preserving Distributed Machine Learning"]
-  - title: "[Access'21] Sub-Decimeter VLC 3D Indoor Localization With Handover Probability Analysis"
-    url: "https://ieeexplore.ieee.org/abstract/document/9523865"
-    authors: "S.M. Sheikholeslami, F. Fazel, J. Abouei, K.N. Plataniotis"
-    tags: ["Cell-Free Massive MIMO"]
   - title: "[SG'22] Cloud Data Center Demand Response: An Optimized Workload Management Approach"
     url: "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/stg2.12082"
     authors: "S.M. Sheikholeslami, K.N. Plataniotis"
+    tags: ["Cell-Free Massive MIMO"]
+  - title: "[Access'21] Sub-Decimeter VLC 3D Indoor Localization With Handover Probability Analysis"
+    url: "https://ieeexplore.ieee.org/abstract/document/9523865"
+    authors: "S.M. Sheikholeslami, F. Fazel, J. Abouei, K.N. Plataniotis"
     tags: ["Cell-Free Massive MIMO"]
 
 ---
