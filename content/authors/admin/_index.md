@@ -129,17 +129,15 @@ awards:
     date: '2022-09-01'
     awarder: University of Toronto, ON, Canada
     #icon: "custom/iicon"
-    summary: |
-      I studied the found a deep passion.
+    #summary: |
+    #  I studied the found a deep passion.
   - title: Graduate Research Fellowship at the University of Tehran
     url: https://ut.ac.ir/en
     date: '2017-09-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain 
+    awarder: University of Tehran
+  - title: Nationwide University Entrance Exam for Graduate degree in Electrical Engineering
+    date: '2017-05-01'
+    summary: Ranked 84th among about 30000 participants.
 
 
 interests:
